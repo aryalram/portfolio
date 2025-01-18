@@ -1,0 +1,100 @@
+h1 {
+    color: blue; 
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0;/* Change this to any color you want */
+   
+}
+h1:hover {
+  color: brown; /* Change the color when hovered */
+}
+h5{
+    color: blue; 
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0;/* Change this to any color you want */
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 50px;  /* Remove top margin */
+    padding-left: 0; /* Remove left padding */
+    padding: 0;     /* Ensure no padding */
+  }
+main {
+    /* Add your styles here */
+    background-color: rgb(129, 250, 183);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  section h2 {
+    color: rgb(85, 4, 4);
+  }
+  nav {
+    background-color: #f0f0f0; /* Change background color */
+    padding: 10px;            /* Add padding */
+  }
+  
+  nav a {
+    color: #6206f6;              /* Change text color */
+    text-decoration: none;    /* Remove underline from links */
+    padding: 5px 10px;        /* Add padding around links */
+  }
+  
+  nav a:hover {
+    color: #e04d09;           /* Change text color on hover */
+  }
+  div{
+    color: #b6cee9;
+    margin-bottom: 0 px;
+  }
+  #my-div {
+    background-color: #f0f0f0; /* Sets background color */
+    color: #b8b3ed;              /* Sets text color */
+    border: 1px solid #ccc;  /* Adds a border */
+    padding: 20px;           /* Adds padding */
+    margin-bottom: 0;           /* Adds margin */
+  }
+  h3{
+    
+color: rgb(231, 198, 16);}
+pre {
+    color: #333;                 /* Text color */
+    padding: 0;               /* Padding inside the paragraph */
+    margin: 10px 0;              /* Margin above and below the paragraph */
+  }
+  h1 {
+    margin-bottom: 10px; /* Adjust this value as needed */
+  }
+  
+  ul {
+    margin-top: 0;
+    padding-left: 0; /* Remove or adjust left padding */
+  }
+  body, h1, nav, .navbar {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.image-container {
+  position: absolute; /* Allow positioning relative to the page */
+  top: 10px; /* Distance from the top */
+  left: 10px; /* Distance from the left */
+  width: 150px; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Makes the image circular (if square) */
+  overflow: hidden; /* Ensures circular shape */
+  background-color: #f0f0f0; /* Optional background for the container */
+}
+
+.image-container img {
+  width: 100%; /* Image fits the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures image fills the container properly */
+}
