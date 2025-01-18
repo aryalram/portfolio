@@ -1,4 +1,4 @@
-const contactLink = document.querySelector('.mainnavbar a[href="contact.html"]');
+const contactLink = document.querySelector('.mainnavbar a[href="Contact.html"]');
 
 // Add a mouseover event listener
 contactLink.addEventListener('mouseover', function() {
